@@ -3,7 +3,7 @@ import { Meta } from '@storybook/react/types-6-0';
 import { TodoRow } from './todo-row';
 
 const story: Meta = {
-  title: 'ui/atoms/TodoRow',
+  title: 'ui/molecules/TodoRow',
   component: TodoRow,
   argTypes: {
     onRemoveClick: {
@@ -16,6 +16,7 @@ const story: Meta = {
   args: {
     todoText: 'Todo something...',
     checked: false,
+    loading: false,
   },
 };
 
