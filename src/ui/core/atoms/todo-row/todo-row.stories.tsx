@@ -6,7 +6,8 @@ const story: Meta = {
   title: 'ui/atoms/TodoRow',
   component: TodoRow,
   args: {
-    title: 'tet',
+    todoText: 'Todo something...',
+    checked: false,
   },
 };
 
