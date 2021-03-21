@@ -24,7 +24,8 @@
     "eject": "craco eject",
     "lint": "eslint --ext=jsx,ts,tsx src",
     "lint:fix": "yarn lint -- --fix",
-    "storybook": "start-storybook -p 6006 -s public"
+    "storybook": "start-storybook -p 6006 -s public",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -82,11 +83,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn run lint-staged"
-    }
   },
   "lint-staged": {
     "./**/*.{ts,tsx}": [
