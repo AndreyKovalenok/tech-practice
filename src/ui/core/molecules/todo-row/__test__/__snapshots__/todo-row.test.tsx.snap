@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`todo-row tests should match snapshot 1`] = `
+<TodoRow
+  checked={false}
+  onCheckboxClick={[Function]}
+  onRemoveClick={[Function]}
+  todoText="Todo something..."
+/>
+`;
